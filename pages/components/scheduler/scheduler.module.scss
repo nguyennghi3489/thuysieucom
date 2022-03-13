@@ -1,0 +1,13 @@
+@import "~/styles/_variables.scss";
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: $spaceXL;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

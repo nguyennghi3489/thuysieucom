@@ -1,0 +1,14 @@
+@import "~/styles/_variables.scss";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: $space $spaceL;
+    background-color: $lighterColor;
+    border-bottom: 1px solid $lightColor;
+}
+
+.logo {
+    display: block;
+    width: 60px;
+}

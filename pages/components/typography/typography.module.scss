@@ -1,0 +1,77 @@
+@import "~/styles/_variables.scss";
+
+.primary {
+    color: $primaryColor;
+}
+.secondary {
+    color: $lightgrayColor;
+}
+.interactive {
+    color: $secondaryColor;
+}
+.disabled {
+    color: $lightgrayColor;
+}
+.error {
+    color: $errorColor;
+}
+.light {
+    color: $lighterColor;
+}
+.default {
+    color: $darkColor;
+}
+
+.h1 {
+    font-size: $fontSizeLevel1;
+    margin: $spaceL 0;
+}
+
+.h2 {
+    font-size: $fontSizeLevel2;
+    margin: $spaceM 0;
+}
+
+.h3 {
+    font-size: $fontSizeLevel3;
+}
+
+.h4 {
+    font-size: $fontSizeLevel4;
+    margin: $spaceM 0;
+}
+
+.h5 {
+    font-size: $fontSizeLevel5;
+}
+
+.h6 {
+    font-size: $fontSizeLevel5;
+}
+
+.subtitle1 {
+    font-size: $fontSizeLevel6;
+    font-weight: bold;
+}
+.subtitle2 {
+    font-size: $fontSizeLevel6;
+}
+.body1 {
+    font-size: $fontSizeLevel7;
+    font-weight: bold;
+}
+.body2 {
+    font-size: $fontSizeLevel7;
+}
+.button {
+    font-size: $fontSizeLevel6;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.overline {
+    font-size: $fontSizeLevel7;
+    text-transform: uppercase;
+}
+.caption {
+    font-size: $fontSizeLevel7;
+}

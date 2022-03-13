@@ -1,0 +1,16 @@
+@import "~/styles/_variables.scss";
+
+.input {
+    height: 50px;
+    width: 300px;
+    background: $lightColor;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: $fontSizeLevel6;
+    padding: 0 $spaceM;
+    color: $lightgrayColor;
+    &:hover {
+        border: 1px solid $primaryColor;
+    }
+}

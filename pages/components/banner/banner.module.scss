@@ -1,0 +1,32 @@
+@import "~/styles/_variables.scss";
+
+.container {
+    position: relative;
+    margin-bottom: $spaceXL;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    width: 70%;
+    top: 25%;
+    right: $spaceL;
+    background: rgba($color: #fff, $alpha: 0.6);
+    padding: $spaceL;
+}
+
+.title {
+    color: $darkGrayColor;
+}
+
+.contactButton {
+    float: left;
+}
+
+@supports (backdrop-filter: blur(3px)) {
+    .header {
+        backdrop-filter: blur(3px);
+    }
+}

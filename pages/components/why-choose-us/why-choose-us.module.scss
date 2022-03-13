@@ -1,0 +1,12 @@
+@import "~/styles/_variables.scss";
+
+.wrapper {
+    background: $lightestgrayColor;
+}
+.container {
+    margin: 0 auto;
+    width: $containerWidth;
+    justify-content: space-between;
+    display: flex;
+    padding: $spaceXL 0;
+}

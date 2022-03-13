@@ -1,0 +1,16 @@
+@import "~/styles/_variables.scss";
+
+.button {
+    height: 50px;
+    background: $grayColor;
+    outline: 0;
+    border: 0;
+    color: $lighterColor;
+    padding: 0 $spaceL;
+    font-size: $fontSizeLevel6;
+    font-weight: bold;
+}
+
+.primary {
+    background-color: $primaryColor;
+}
