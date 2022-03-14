@@ -27,6 +27,7 @@ interface Props {
     children: ReactNode;
     color?: IColor;
     overrideStyle?: string;
+    for?: string;
 }
 
 const buildTypography = (variant: ITypographyVariants) => {
@@ -102,13 +103,14 @@ export const Typography = ({
     overrideStyle,
     component,
     children,
+    ...rest
 }: Props) => {
     const typography = buildTypography(variant);
     const TypographyComponent = component ?? (typography.component as any);
     const combinedStyle = combineStyles(variant, color, overrideStyle);
 
     return (
-        <TypographyComponent className={combinedStyle}>
+        <TypographyComponent className={combinedStyle} {...rest}>
             {children}
         </TypographyComponent>
     );

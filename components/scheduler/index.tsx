@@ -11,11 +11,16 @@ export const Scheduler = () => {
             <Typography variant="h2" color="primary">
                 Đặt lịch hẹn để được kiểm tra nước miễn phí
             </Typography>
-            <Typography variant="h5" color="secondary">
+            <Typography
+                variant="h5"
+                color="secondary"
+                component="label"
+                for="email"
+            >
                 Nhập email của bạn chúng tôi sẽ liên hệ với bạn sớm nhất
             </Typography>
             <div className={styles.form}>
-                <Input />
+                <Input name="email" />
                 <Button>Submit</Button>
             </div>
         </div>

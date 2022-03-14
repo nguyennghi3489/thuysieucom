@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./input.module.scss";
 
-export const Input = () => {
+export const Input = ({ ...rest }) => {
     return (
         <>
-            <input className={styles.input} />
+            <input className={styles.input} {...rest} />
         </>
     );
 };
