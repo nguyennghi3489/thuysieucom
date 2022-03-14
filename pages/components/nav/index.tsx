@@ -9,7 +9,7 @@ export const Nav = () => {
             <Link href="/">
                 <Typography
                     color="secondary"
-                    variant="subtitle1"
+                    variant="body1"
                     overrideStyle={styles.link}
                 >
                     Trang Chủ
@@ -18,7 +18,7 @@ export const Nav = () => {
             <Link href="/blog">
                 <Typography
                     color="secondary"
-                    variant="subtitle1"
+                    variant="body1"
                     overrideStyle={styles.link}
                 >
                     Dịch Vụ
@@ -27,7 +27,7 @@ export const Nav = () => {
             <Link href="/product">
                 <Typography
                     color="secondary"
-                    variant="subtitle1"
+                    variant="body1"
                     overrideStyle={styles.link}
                 >
                     Liên Hệ

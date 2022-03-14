@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Banner } from "./components/banner";
+import { MoreInformation } from "./components/more-information";
 import { Scheduler } from "./components/scheduler";
 import { WhyChooseUs } from "./components/why-choose-us";
 
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
             <Banner />
             <Scheduler />
             <WhyChooseUs />
+            <MoreInformation />
 
             <footer className={styles.footer}>
                 <a

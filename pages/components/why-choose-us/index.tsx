@@ -11,7 +11,18 @@ export const WhyChooseUs = () => {
                     <Reasons />
                 </div>
                 <div className={styles.mainColumn}>
-                    <Typography variant="h1">Hello World</Typography>
+                    <Typography variant="h4">Why choose us</Typography>
+                    <Typography variant="h2" color="primary">
+                        Protect your family with one of the best water filtering
+                        system
+                    </Typography>
+                    <Typography variant="subtitle2">
+                        We produce high-tech solutions in the field of water
+                        purification that meet the most stringent quality
+                        standards and customer requirements. Purification is
+                        carried out with the help of innovative developments of
+                        the brand.
+                    </Typography>
                 </div>
             </div>
         </div>

@@ -43,6 +43,7 @@
 
 .h5 {
     font-size: $fontSizeLevel5;
+    margin: $spaceM 0;
 }
 
 .h6 {
@@ -50,18 +51,19 @@
 }
 
 .subtitle1 {
-    font-size: $fontSizeLevel6;
+    font-size: $fontSizeLevel5;
     font-weight: bold;
 }
 .subtitle2 {
-    font-size: $fontSizeLevel6;
+    font-size: $fontSizeLevel5;
+    font-weight: normal;
 }
 .body1 {
-    font-size: $fontSizeLevel7;
+    font-size: $fontSizeLevel6;
     font-weight: bold;
 }
 .body2 {
-    font-size: $fontSizeLevel7;
+    font-size: $fontSizeLevel6;
 }
 .button {
     font-size: $fontSizeLevel6;

@@ -1,17 +1,18 @@
 @import "~/styles/_variables.scss";
 
 .wrapper {
-    background: $lightestgrayColor;
+    background: $primaryColor;
 }
 .container {
     margin: 0 auto;
     width: $containerWidth;
     justify-content: space-between;
+    flex-direction: column;
     display: flex;
     padding: $spaceXL 0;
+    text-align: center;
 }
 
-.mainColumn {
-    text-align: right;
-    max-width: 50%;
+.phone {
+    padding-left: $spaceS;
 }
